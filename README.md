@@ -8,3 +8,5 @@ In this python script I'am going to scrap data from the site https://news.ycombi
 - import library
 - load site data in xml using xml parser.
 - scrap data of your interest.
+
+You can refer to BeautifulSoup documentation here https://www.crummy.com/software/BeautifulSoup/bs4/doc/
