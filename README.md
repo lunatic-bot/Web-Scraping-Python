@@ -17,19 +17,25 @@ To get started with web scraping using `BeautifulSoup`, you will need to install
 
 2. Import the Required Libraries
   Start by importing BeautifulSoup and requests to fetch and parse data:
+  ```python
   from bs4 import BeautifulSoup
   import requests
+  ```
 
-3. Load Site Data Using XML Parser
+4. Load Site Data Using XML Parser
   After importing the libraries, load the website data and use the XML or HTML parser to read it:
+  ```python
   page = requests.get("https://news.ycombinator.com/")
   soup = BeautifulSoup(page.content, 'html.parser')
+  ```
 
-4. Scrape Data of Interest
+6. Scrape Data of Interest
   Identify the relevant HTML elements you want to extract, like titles, links, or other data:
+  ```python
   titles = soup.find_all('a', class_='storylink')
   for title in titles:
     print(title.text)
+  ```
 
 You can refer to BeautifulSoup documentation here https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
