@@ -7,8 +7,8 @@ This repository contains Python scripts for web scraping using the `BeautifulSou
 
 ### Prerequisites
 To get started with web scraping using `BeautifulSoup`, you will need to install the necessary library:
-```bash
-pip install bs4
+  ```bash
+  pip install bs4
 
 ### Steps
 1. Install BeautifulSoup
