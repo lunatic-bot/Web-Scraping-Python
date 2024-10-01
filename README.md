@@ -10,6 +10,7 @@ To get started with web scraping using `BeautifulSoup`, you will need to install
   ```bash
   pip install bs4
 
+
 ### Steps
 1. Install BeautifulSoup
   Use pip to install the BeautifulSoup library, which allows you to scrape and parse HTML and XML content.
